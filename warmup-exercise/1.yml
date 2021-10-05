@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Namespace
+metadata:
+  creationTimestamp: "2021-07-21T14:39:07Z"
+  labels:
+    istio-injection: enabled
+  name: default
+  resourceVersion: "700679"
+  uid: 82a88fb8-ac7a-4b0f-bc4e-709f55a66eb0
+spec:
+  finalizers:
+  - kubernetes
+status:
+  phase: Active
